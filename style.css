@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'montserret-medium';
+    src: url(./font/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: 'montserret-bold';
+    src: url(./font/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'frunces-bold';
+    src: url(./font/Fraunces_9pt_Soft-Bold.ttf);
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin-left: 320px;
+    margin-top: 100px;
+    padding-top: 120px;
+    padding-left: 250px;
+}
+ .parfume .desctop{
+    /* border: 2px solid red; */
+    width: 350px;
+    height: 480px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-top: -480px;
+}
+._app{
+    /* border: 2px solid red; */
+    width: 730px;
+    height: 478px;
+    border-radius: 15px;
+}
+
+@media (max-width:2000px) {
+ ._app{
+    border: 2px solid white;
+    background-color: white;
+ }  
+ .parfume .chanel .mobile{
+    opacity: 0;
+ } 
+ .parfume{
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 30px;
+    margin-top: -19.7px;
+    margin-left: -1.5px;
+ }
+ .perfume{
+    /* border: 2px solid red; */
+    margin-left: -330px;
+    margin-right: calc(30px);
+    margin-top: 20px;
+ }
+ .parfume h2{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    font-family: 'montserret-medium';
+    font-weight: 700;
+    letter-spacing:5px;
+    font-size: 14px;
+    opacity: 0.6;
+    color: hsl(228, 12%, 48%);
+ }
+ .parfume h1{
+    /* border: solid red; */
+    margin-top: 27px;
+    margin-right: calc(70px);
+    font-family: 'frunces-bold';
+    font-weight: 700;
+    line-height: 35px;
+    color: hsl(212, 21%, 14%);
+    opacity: 0.95;
+ }
+ .parfume .perfume .text{
+    /* border: 2px solid red; */
+    margin-right: calc(70px);
+    line-height: 23px;
+    color: hsl(0, 2%, 51%);
+    opacity: 0.9;
+    font-family: 'montserret-medium';
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .parfume .price {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+ }
+ .parfume .price span{
+    /* border: 2px solid red; */
+    font-family: 'frunces-bold';
+    font-weight: 700;
+    font-size: 38px;
+    opacity: 0.9;
+    color: hsl(144, 61%, 31%);
+ }
+ .parfume .price del{
+    /* border: 2px solid red; */
+    color: hsl(0, 2%, 51%);
+    font-family: 'montserret-medium';
+    font-weight: 500;
+    opacity: 0.8;
+    font-size: 14px;
+ }
+ .parfume .btn{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    outline: none;
+ }
+ .parfume button{
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: hsl(138, 81%, 14%);
+    border-radius: 10px;
+    padding: 5px 90px;    
+}
+.parfume button p{
+    /* border: 2px solid red; */
+    font-family: 'montserret-bold';
+    font-weight: 700;
+    color: hsl(30, 38%, 92%);
+    opacity: 0.99;
+}
+}
+@media (max-width:375px){
+    .parfume .chanel .desctop {
+        /* border: 2px solid red; */
+        opacity: 0;
+    }
+    ._app{
+        /* border: 2px solid red; */
+        gap: 0px;
+        width: 367px;
+        height: 272px;
+        border-bottom-left-radius: 0px;
+        border-end-end-radius: 0px;
+        display: inline-block;
+        margin-left: -10px;
+    }
+    .parfume .chanel .mobile{
+
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        height: 280px;
+        width: 440px;
+        margin-top: 14px;  
+        opacity: 1;
+        display: inline-block;
+        margin-left: -70px;
+    }
+    .parfume .perfume{
+        border: 2px solid red;
+        padding-left: 25px;
+        padding-right: 175px;
+        margin-top: 294px;
+        margin-left: -470px;
+        background-color: white;
+    }
+    .parfume h1{
+        /* border: 2px solid red; */
+        margin-right: calc(-60px);
+    }
+    button{
+     border: 2px solid red;
+     padding-right: 200000px;
+    }
+    .parfume button p{
+        border: 2px solid red;
+        margin-right: calc(-67px)
+    }
+    .attribution {
+        border: 2px solid red;
+        margin-top: 480px;
+    }
+    .btn{
+        margin-bottom: 25px;
+    }
+}
