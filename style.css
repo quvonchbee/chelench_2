@@ -14,8 +14,8 @@ body{
     background-color: hsl(30, 38%, 92%);
     margin-left: 320px;
     margin-top: 100px;
-    padding-top: 120px;
     padding-left: 250px;
+    padding-top: 100px;
 }
  .parfume .desctop{
     /* border: 2px solid red; */
@@ -143,6 +143,10 @@ body{
         border-end-end-radius: 0px;
         display: inline-block;
         margin-left: -10px;
+    }
+    .parfume{
+        /* border: 2px solid red; */
+        /* gap: 0px; */
     }
     .parfume .chanel .mobile{
 
